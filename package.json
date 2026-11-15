@@ -1,0 +1,17 @@
+{
+  "name": "sundai",
+  "private": true,
+  "scripts": {
+    "start:donor": "node donor-portal/server.js",
+    "dev:donor": "node --watch donor-portal/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "stripe": "^16.8.0"
+  },
+  "devDependencies": {
+    "openclaw": "^2026.11.3"
+  }
+}

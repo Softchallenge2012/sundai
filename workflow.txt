@@ -1,0 +1,44 @@
+
+### Module 1: Cold Outreach to Program Officers
+
+This module automates prospect research, data enrichment, personalized drafting, and tracking of grant communications.
+
+1. **Prospect Discovery & Data Ingestion**
+* Use Egbe's [Research, data and AI](https://docs.egbe.ai/infrastructure/research-and-data/) capabilities to direct your coding agent to search grant databases (like Candid/Foundation Directory) or foundation websites.
+* Have the agent scrape foundation priorities, giving ranges, past grantees, and program officer contact details, saving them into a structured project artifact (e.g., `grants/prospects.json`).
+
+
+2. **Drafting Tailored Outreach**
+* Set up a [Customer acquisition](https://docs.egbe.ai/guides/acquisition/) / [Advertising and outreach](https://docs.egbe.ai/infrastructure/advertising-and-outreach/) script where your agent cross-references your nonprofit’s mission against each foundation’s guidelines.
+* Generate customized Letters of Inquiry (LOIs) or introduction emails tailored to specific program officers rather than sending generic templates.
+
+
+3. **Execution & Follow-up Tracking**
+* Integrate your email delivery tool or CRM endpoint via Egbe's [Analytics and email](https://docs.egbe.ai/infrastructure/analytics-and-email/) services to send outreach and log responses.
+* Schedule a [Recurring work](https://docs.egbe.ai/guides/continuity/) check-in so your agent periodically prompts you to review reply statuses, track deadlines, and schedule follow-ups.
+
+
+
+---
+
+### Module 2: Custom Donor Portal & Payment Flow
+
+This module builds a secure landing page for donors, integrates recurring/one-time contributions, and ensures a smooth checkout experience.
+
+1. **Scaffolding and Frontend Build ([Engineering Loop](https://docs.egbe.ai/guides/engineering-loop/))**
+* Instruct your coding agent to build a responsive donor portal web app (using frameworks like Next.js, React, or simple static HTML/Tailwind).
+* Include impact metrics, campaign stories, and custom donation tiers (e.g., $50, $250, $1,000, or custom amounts).
+
+
+2. **Payment Integration ([Accounts and payments](https://docs.egbe.ai/infrastructure/accounts-and-payments/))**
+* Wire up Egbe’s managed **Stripe checkout** infrastructure to handle secure credit card, Apple Pay, and ACH transactions.
+* Configure the payment metadata to capture donor intent (e.g., general fund vs. specific campaigns) and enable recurring monthly giving options.
+
+
+3. **Database & Receipts ([Hosting and data](https://docs.egbe.ai/infrastructure/hosting-and-data/))**
+* Provision a secure database via Egbe's [Hosting and data](https://docs.egbe.ai/infrastructure/hosting-and-data/) services to log donor profiles and transaction IDs.
+* Set up automated email trigger hooks (via [Analytics and email](https://docs.egbe.ai/infrastructure/analytics-and-email/)) to instantly dispatch tax-exempt receipts and gratitude notes to donors post-checkout.
+
+
+4. **End-to-End Verification**
+* Before pushing live, run Egbe’s verification playbooks to test the complete donor journey—simulating a test-mode credit card transaction, verifying webhook delivery, and checking that the receipt lands in the inbox.

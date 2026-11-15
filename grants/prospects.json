@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "purpose": "Program officer and foundation prospect tracking",
+    "updated_at": "2026-11-15T00:00:00Z",
+    "owner": "Nonprofit automation",
+    "source": "Egbe prospect research"
+  },
+  "prospects": [
+    {
+      "id": "prospect-001",
+      "name": "Alicia Moreno",
+      "organization": "City Food Access Fund",
+      "website": "https://example.org/city-food-access",
+      "program_officer": "Senior Grants Manager",
+      "stage": "new",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "status": "pending",
+      "mission_fit": "Food access and local nutrition equity",
+      "focus_areas": [
+        "food access",
+        "community nutrition",
+        "equitable access"
+      ],
+      "priority": "high",
+      "source": "manual",
+      "notes": [
+        "Mission fit: community nutrition and food access program expansion."
+      ],
+      "created_at": "2026-11-15T00:00:00Z"
+    },
+    {
+      "id": "prospect-002",
+      "name": "Daniel Brooks",
+      "organization": "Northside Youth Opportunity Trust",
+      "website": "https://example.org/northside-youth",
+      "program_officer": "Partnerships Director",
+      "stage": "follow_up",
+      "last_contacted_at": "2026-11-15T00:00:00Z",
+      "next_follow_up_at": "2026-11-29T00:00:00Z",
+      "status": "awaiting_response",
+      "mission_fit": "Youth skill-building and safe spaces for young adults",
+      "focus_areas": [
+        "youth opportunity",
+        "career readiness",
+        "safe spaces"
+      ],
+      "priority": "medium",
+      "source": "manual",
+      "notes": [
+        "Follow-up scheduled for youth career readiness and safe spaces initiative."
+      ],
+      "created_at": "2026-11-15T00:00:00Z"
+    },
+    {
+      "id": "prospect-003",
+      "name": "test",
+      "organization": "test",
+      "website": "https://www.test.com",
+      "program_officer": "test",
+      "stage": "new",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "status": "pending",
+      "notes": [],
+      "mission_fit": "youth development",
+      "focus_areas": [
+        "research"
+      ],
+      "priority": "medium",
+      "source": "manual",
+      "created_at": "2026-11-15T19:09:40Z"
+    },
+    {
+      "id": "prospect-004",
+      "name": "E14 Partner Team",
+      "organization": "E14",
+      "website": "https://www.e14.vc/",
+      "program_officer": "Partnerships and Capital Strategy",
+      "stage": "new",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "status": "pending",
+      "mission_fit": "Early-stage founder ecosystem support, startup acceleration, and ecosystem-building partnerships",
+      "focus_areas": [
+        "venture capital",
+        "startup ecosystems",
+        "founder support"
+      ],
+      "priority": "high",
+      "source": "manual",
+      "notes": [
+        "Prospect from E14 website research for founder ecosystem and venture-aligned partnership opportunities."
+      ],
+      "created_at": "2026-11-15T00:00:00Z"
+    },
+    {
+      "id": "prospect-005",
+      "name": "Foley Hoag Pro Bono Team",
+      "organization": "Foley Hoag LLP",
+      "website": "https://foleyhoag.com/home/",
+      "program_officer": "Pro Bono and Community Engagement Lead",
+      "stage": "new",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "status": "pending",
+      "mission_fit": "Legal support, civic innovation, and mission-aligned nonprofit partnerships",
+      "focus_areas": [
+        "legal services",
+        "nonprofit counsel",
+        "community partnerships"
+      ],
+      "priority": "medium",
+      "source": "manual",
+      "notes": [
+        "Prospect from Foley Hoag website research for legal and civic collaboration opportunities."
+      ],
+      "created_at": "2026-11-15T00:00:00Z"
+    },
+    {
+      "id": "prospect-006",
+      "name": "Capitol Club Community Team",
+      "organization": "Capitol Club",
+      "website": "https://www.capitalklub.com/",
+      "program_officer": "Membership and Community Director",
+      "stage": "new",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "status": "pending",
+      "mission_fit": "Civic community building, founder networking, and cross-sector collaboration",
+      "focus_areas": [
+        "civic leadership",
+        "networking",
+        "community building"
+      ],
+      "priority": "medium",
+      "source": "manual",
+      "notes": [
+        "Prospect from Capitol Club website research for civic and founder-network partnership opportunities."
+      ],
+      "created_at": "2026-11-15T00:00:00Z"
+    }
+  ]
+}

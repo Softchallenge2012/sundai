@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sundai Commons | Build, ship, and share</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">S</span>
+          <span>Sundai Commons</span>
+        </div>
+        <nav>
+          <a href="#mission">Mission</a>
+          <a href="#donate">Give</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Field note from the lab</p>
+            <h1>We are building public-interest AI in the same spirit that made MIT hacker culture legendary.</h1>
+            <p class="subhead">
+              Sundai is a collective of builders, researchers, and operators who prototype every Sunday and ship what matters by the end of the day. We are turning rapid experimentation into a real public-good engine for civic resilience, local trust, and equitable opportunity.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#donate">Fund the next build</a>
+              <a class="secondary-btn" href="#mission">Read the story</a>
+            </div>
+            <ul class="trust-list">
+              <li>Build-first experiments</li>
+              <li>Public-interest tooling</li>
+              <li>Weekly shipping rhythm</li>
+            </ul>
+          </div>
+
+          <aside class="donation-card" id="donate">
+            <div class="card-header">
+              <p class="small-label">Support the next prototype</p>
+              <h2>Back the build</h2>
+            </div>
+
+            <form id="donation-form" class="donation-form">
+              <div class="amount-selector" aria-label="Donation options">
+                <button type="button" class="amount-btn active" data-amount="25">$25</button>
+                <button type="button" class="amount-btn" data-amount="50">$50</button>
+                <button type="button" class="amount-btn" data-amount="100">$100</button>
+                <button type="button" class="amount-btn" data-amount="250">$250</button>
+              </div>
+
+              <label>
+                Custom amount
+                <input id="custom-amount" type="number" min="5" step="5" value="50" />
+              </label>
+
+              <div class="field-row radio-group" role="radiogroup" aria-label="Donation frequency">
+                <label><input type="radio" name="frequency" value="once" checked /> One-time</label>
+                <label><input type="radio" name="frequency" value="monthly" /> Monthly</label>
+              </div>
+
+              <label>
+                Name
+                <input type="text" id="donor-name" placeholder="Your name" required />
+              </label>
+
+              <label>
+                Email
+                <input type="email" id="donor-email" placeholder="you@example.org" required />
+              </label>
+
+              <button type="submit" class="primary-btn submit-btn">Fund the build</button>
+            </form>
+
+            <div id="donation-success" class="success hidden" aria-live="polite">
+              Thanks for backing the build. We’ll turn your support into a working prototype, a public demo, and a practical tool that strengthens the community.
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="mission" class="impact">
+        <div class="container impact-grid">
+          <article>
+            <span>80+</span>
+            <p>Sunday hacks shipped in under a year, proving the model of rapid AI experimentation.</p>
+          </article>
+          <article>
+            <span>MIT + Harvard</span>
+            <p>Built by a collective that treats hacking as creative engineering and civic experimentation.</p>
+          </article>
+          <article>
+            <span>Public goods</span>
+            <p>A counter-model to corporate consolidation: open tools, shared learning, and fast iteration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="story-band">
+        <div class="container story-box">
+          <p class="story-kicker">Why this matters</p>
+          <blockquote>
+            “The future of AI won’t be built only in giant corporate labs. It will also be built in rooms full of people who know how to ship quickly, share openly, and remake the tools around them.”
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "project_id": 2931,
+  "consent": "granted",
+  "choice_date": "2026-11-15",
+  "authorization_source": "project setup request",
+  "environment": "production",
+  "telemetry_url": "https://observe.hz.egbe.dev/telemetry",
+  "session_logging": {
+    "enabled": true,
+    "status": "pending-harness-verification",
+    "owner": "project workspace",
+    "notes": "Validated project identity and gateway availability. The selected harness is OpenClaw, but no local OpenClaw runtime/exporter is installed in this workspace yet, so verification remains pending until the project Gateway is configured and confirmed.",
+    "cadence": "weekly during active outreach/campaign windows"
+  },
+  "collectors": {
+    "openclaw": {
+      "enabled": false,
+      "integration": "@openclaw/diagnostics-otel",
+      "version": "pending-compatible-release-check",
+      "launch_mode": "project-dedicated Gateway profile required",
+      "verification": "pending",
+      "gateway_url": "https://observe.hz.egbe.dev/telemetry/ingest/openclaw",
+      "capture_scope": "text/tool capture requires the existing Egbe consent grant; cross-turn grouping is not guaranteed for OpenClaw 2026.10.2 with SQLite",
+      "required_next_step": "Install the compatible OpenClaw runtime and diagnostics-otel package in the actual project Gateway, enable the exporter in that profile, then reload and verify with a test turn.",
+      "status": "pending-install-and-activation"
+    }
+  }
+}
